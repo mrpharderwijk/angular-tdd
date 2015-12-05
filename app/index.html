@@ -3,5 +3,12 @@
 </head>
 <body ng-app="AddressBook">
   <h1>Test Driven Development</h1>
+
+  <div ng-controller="ContactController">
+    <div ng-repeat="contact in contacts">
+      {{ contact.firstName }}
+    </div>
+  </div>
+
   <script src="main.js"></script>
 </body>
