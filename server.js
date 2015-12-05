@@ -5,11 +5,11 @@ var app = express();
 app.use(cors());
 
 var contacts = [{
-  firstName: 'Marnix',
+  firstName: 'marnix',
   LastName: 'Harderwijk'
 },
 {
-  firstName: 'John',
+  firstName: 'john',
   lastName: 'Doe'
 }];
 
