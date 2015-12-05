@@ -1,0 +1,22 @@
+
+	Angular Test Driven Development
+	- - - - - - - - - - - - - - - - - - - - - - -
+	
+	This is just a sandbox to explore TDD
+	with Mocha, Chai, Protractor, Selenium,
+	Karma and Istanbul with a small contacts app.
+
+	The environment is set up in Gulp. You can
+	run it by typing:
+	$ gulp serve
+
+	It starts the environment on port 8080 and
+	a simple backend express server on port 9001.
+	
+	The test evironment is available on port 8081.
+	
+	Refreshing after changes is done by browserSync.
+
+	- - - - - - - - - - - - - - - - - - - - - - - -
+
+	~ Marnix Harderwijk
