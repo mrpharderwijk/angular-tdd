@@ -3,7 +3,7 @@ angular.module('AddressBook', [])
 .service('contactService', function($http) {
   this.contacts = [];
 
-  var contactService = this
+  var contactService = this;
 
   $http.get('http://localhost:9001/contacts')
     .then(function(res) {
@@ -27,5 +27,15 @@ angular.module('AddressBook', [])
     return name.toString().split(' ').map(function(word) {
       return word[0].toUpperCase().concat(word.slice(1));
     }).join(' ');
+  };
+})
+
+.directive('avatar', function() {
+  return {
+    restrict: 'AE',
+    scope: {
+      name: '='
+    },
+    template: '<span class="avatar">{{ name[0] | proper }}</span>'
   };
 });

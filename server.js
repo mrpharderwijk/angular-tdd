@@ -6,7 +6,7 @@ app.use(cors());
 
 var contacts = [{
   firstName: 'marnix',
-  LastName: 'Harderwijk'
+  lastName: 'Harderwijk'
 },
 {
   firstName: 'john',
